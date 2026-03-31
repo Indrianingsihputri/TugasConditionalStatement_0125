@@ -9,7 +9,6 @@ void inputData(float &berat, float &tinggi) {
     cin >> tinggi;
 }
 
-
 // Fungsi untuk menghitung BMI
 float hitungBMI(float berat, float tinggi) {
     return berat / (tinggi * tinggi);
@@ -38,7 +37,7 @@ int main() {
 
     // Hitung BMI
     bmi = hitungBMI(berat, tinggi);
-    
+
     // Output hasil
     cout << "\n--- Hasil ---" << endl;
     cout << "BMI Anda : " << bmi << endl;
